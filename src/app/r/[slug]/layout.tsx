@@ -74,10 +74,10 @@ const Layout = async ({
             <div className="px-6 py-4">
               <p className="font-semibold py-3">About r/{subreddit.name}</p>
             </div>
-            <dl className="divide-y divide-gray-100 px-6 py-4 text-sm leading-6 bg-white">
+            <dl className="divide-y divide-gray-100 px-6 py-4 dark:bg-[#030711] text-sm leading-6 bg-white">
               <div className="flex justify-between gap-x-4 py-3">
                 <dt className="text-gray-500">Created</dt>
-                <dd className="text-gray-700">
+                <dd className="text-gray-500">
                   <time dateTime={subreddit.createdAt.toDateString()}>
                     {format(subreddit.createdAt, "MMMM d, yyyy")}
                   </time>
@@ -86,7 +86,7 @@ const Layout = async ({
               <div className="flex justify-between gap-x-4 py-3">
                 <dt className="text-gray-500">Members</dt>
                 <dd className="flex items-start gap-x-2">
-                  <div className="text-gray-900">{memberCount}</div>
+                  <div className="text-gray-500">{memberCount}</div>
                 </dd>
               </div>
               {subreddit.creatorId === session?.user?.id ? (
