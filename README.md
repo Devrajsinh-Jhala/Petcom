@@ -6,12 +6,12 @@ A community application for pet lovers and advocates working for pet and animal 
 
 ## Table of Contents:
 
-- [Screenshots](#screenshots-🖼)
-- [About](#about-🤔)
-- [Tech Stack](#tech-stack-🐱‍🏍)
+- [Screenshots](#screenshots)
+- [About](#about)
+- [Tech Stack](#tech-stack)
 - [Features](#features)
 
-## Screenshots 🖼:
+## Screenshots:
 
 <img width="951" alt="petcom8" src="https://github.com/Devrajsinh-Jhala/acm-web/assets/84381242/cf9780bb-61bd-425c-924f-02715b03f7d5">
 
@@ -35,11 +35,11 @@ A community application for pet lovers and advocates working for pet and animal 
 
 <hr>
 
-## About 🤔:
+## About:
 
 A community application for pet lovers and advocates working for pet and animal welfare. Here you can create various communities and post on the topics related to it. You can also upvote the posts, reply to comments like the comments and so much more. We created this application so that people who love pets and contibute to their welfare can have a specific destination to get information about various things depending upon the community.
 
-## Tech Stack 🚀:
+## Tech Stack:
 
 Front End: Next.js 13, TailwindCSS, Shadcn/ui
 
